@@ -41,10 +41,6 @@
     <string name="not_mess_member">You are not a member of Mess Committee!</string>
     <string name="ok">Ok</string>
     <string name="logged_out_successfully">Logged out successfully</string>
-    <string name="breakfast_time">bt</string>
-    <string name="lunch_time">lt</string>
-    <string name="snack_time">st</string>
-    <string name="dinner_time">dt</string>
     <string name="b_time">7:30</string>
     <string name="l_time">12:0</string>
     <string name="s_time">16:30</string>

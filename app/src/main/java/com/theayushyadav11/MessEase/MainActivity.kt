@@ -358,10 +358,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this@MainActivity, AlarmReceiver::class.java)
 
             val times = listOf(
-                mess.get(getString(R.string.breakfast_time),getString(R.string.b_time)),
-                mess.get(getString(R.string.lunch_time),getString(R.string.l_time)),
-                mess.get(getString(R.string.snack_time),getString(R.string.s_time)),
-                mess.get(getString(R.string.dinner_time),getString(R.string.d_time))
+                mess.get("Breakfast timings",getString(R.string.b_time)),
+                mess.get("Lunch timings",getString(R.string.l_time)),
+                mess.get("Snack timings",getString(R.string.s_time)),
+                mess.get("Dinner timings",getString(R.string.d_time))
             )
 
             mess.log(String.format(
